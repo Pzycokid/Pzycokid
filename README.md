@@ -3,7 +3,7 @@
 
 I study how attackers operate so I can detect and stop them. I'm an **M.Sc. Cyber Security** student at **National Forensic Science University (NFSU), Goa** (2025 – 2027) and previously worked as a **Cyber Security Analyst at Acmegrade** (Oct 2024 – Mar 2025).
 
-- 🎯 **Looking for:** SOC Analyst (L1), VAPT, Threat Hunting / IR and Red Team roles, internship or full-time, anywhere in India. Available immediately.
+- 🎯 **Looking for:** SOC Analyst (L1), VAPT, Threat Hunting / IR and Red Team roles, anywhere in India. Remote internships: available now. Full-time: from Jan 2027.
 - 🛡️ **Focus areas:** MITRE ATT&CK mapping, SIEM detections (Wazuh, Sigma), network IDS (Suricata), SOAR automation, web app testing
 - 🔬 **Currently building:** a home SOC where [RedSim](https://github.com/Pzycokid/redsim) generates attack telemetry and [Wazuh](https://github.com/Pzycokid/wazuh-soc-lab), [Suricata](https://github.com/Pzycokid/suricata-ids-lab) and [BlueShield](https://github.com/Pzycokid/blueshield) detect and triage it
 
@@ -26,6 +26,8 @@ I study how attackers operate so I can detect and stop them. I'm an **M.Sc. Cybe
 
 **Blue team:**
 ![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=for-the-badge&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
+![IBM QRadar](https://img.shields.io/badge/IBM_QRadar-052FAD?style=for-the-badge&logo=ibm&logoColor=white)
 ![Sigma](https://img.shields.io/badge/Sigma_Rules-2E5C8A?style=for-the-badge&logoColor=white)
 ![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=for-the-badge&logoColor=white)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-C8102E?style=for-the-badge&logoColor=white)
@@ -33,6 +35,8 @@ I study how attackers operate so I can detect and stop them. I'm an **M.Sc. Cybe
 
 **Offensive / VAPT:**
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=for-the-badge&logoColor=white)
 ![SQLMap](https://img.shields.io/badge/SQLMap-4B0082?style=for-the-badge&logoColor=white)
 
