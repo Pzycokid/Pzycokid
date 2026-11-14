@@ -1,39 +1,55 @@
 <h1 align="center">Hi, I'm Likhith H S 👋</h1>
-<p align="center"><b>Cybersecurity | SOC &amp; Threat Detection | Detection Engineering</b></p>
+<p align="center"><b>SOC & Detection Engineering · VAPT · Adversary Simulation</b></p>
 
-I study how attackers operate so I can detect them. I'm an **M.Sc. Cyber Security** student at **National Forensic Science University (NFSU), Goa** (graduating 2027) and a former **Cybersecurity Analyst Intern**.
+I study how attackers operate so I can detect and stop them. I'm an **M.Sc. Cyber Security** student at **National Forensic Science University (NFSU), Goa** (2025 – 2027) and previously worked as a **Cyber Security Analyst at Acmegrade** (Oct 2024 – Mar 2025).
 
-- 🎯 **Looking for:** SOC Analyst, Cybersecurity Analyst and Attack Surface Management roles in Bengaluru
-- 🛡️ **Focus areas:** MITRE ATT&CK mapping, Windows telemetry, Sigma detection rules, network security, Linux
-- 🔬 **Currently building:** [attack-detection-lab](https://github.com/Pzycokid/attack-detection-lab) — mapping ATT&CK techniques to the logs they leave behind
-
----
-
-### 🛠️ Skills & Tools
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Networking](https://img.shields.io/badge/Networking-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-C8102E?style=for-the-badge&logoColor=white)
-![Sigma](https://img.shields.io/badge/Sigma_Rules-2E5C8A?style=for-the-badge&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-### 📜 Certifications
-
-![CEH](https://img.shields.io/badge/EC--Council-C%7CEH-B22222?style=for-the-badge)
-![CCNA](https://img.shields.io/badge/Cisco-CCNA_200--301-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-Certified-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+- 🎯 **Looking for:** SOC Analyst (L1), VAPT, Threat Hunting / IR and Red Team roles, internship or full-time, anywhere in India. Available immediately.
+- 🛡️ **Focus areas:** MITRE ATT&CK mapping, SIEM detections (Wazuh, Sigma), network IDS (Suricata), SOAR automation, web app testing
+- 🔬 **Currently building:** a home SOC where [RedSim](https://github.com/Pzycokid/redsim) generates attack telemetry and [Wazuh](https://github.com/Pzycokid/wazuh-soc-lab), [Suricata](https://github.com/Pzycokid/suricata-ids-lab) and [BlueShield](https://github.com/Pzycokid/blueshield) detect and triage it
 
 ---
 
 ### 🚀 Featured Projects
 
-| Project | What it does | Stack | Link |
-|---|---|---|---|
-| **ATT&CK Detection Lab** | Maps MITRE ATT&CK techniques (PowerShell, scheduled tasks, Run keys, RDP) to the telemetry they generate and Sigma rules that detect them | Sysmon · Windows Event Logs · Sigma · Atomic Red Team · Wazuh/Splunk | [Repo](https://github.com/Pzycokid/attack-detection-lab) |
-| **Portfolio Website** | Personal portfolio showcasing my skills, projects and achievements | HTML · CSS · JavaScript | [Repo](https://github.com/Pzycokid/Likhith_Portfolio) |
+| Project | What it does | Stack |
+|---|---|---|
+| 🔴 **[RedSim](https://github.com/Pzycokid/redsim)** | MITRE ATT&CK adversary simulation: 13 scenario profiles (APT29, ransomware, insider threat…) run safe, benign primitives that generate realistic telemetry and risk-scored PDF/JSON reports | Python · MITRE ATT&CK · GitHub Actions |
+| 🔵 **[BlueShield](https://github.com/Pzycokid/blueshield)** | Detection-as-code (Sigma + CI) and a SOAR engine that enriches, scores and correlates Wazuh/Suricata alerts into prioritised cases | Python · Sigma · SOAR · Splunk/Elastic |
+| 🧭 **[ATT&CK Detection Lab](https://github.com/Pzycokid/attack-detection-lab)** | Maps ATT&CK techniques (PowerShell, scheduled tasks, Run keys, RDP) to the telemetry they leave and Sigma rules that catch them | Sysmon · Windows Event Logs · Sigma · Atomic Red Team |
+| 🖥️ **[Wazuh SOC Lab](https://github.com/Pzycokid/wazuh-soc-lab)** | Home SOC on Wazuh SIEM with custom rules for brute force, account abuse and PowerShell, plus triage playbooks | Wazuh · SIEM · Incident Response |
+| 🌐 **[Suricata IDS Lab](https://github.com/Pzycokid/suricata-ids-lab)** | Custom network IDS rules for scans, brute force and risky traffic, with an offline test harness and alert summariser | Suricata · Python · Network Security |
+| 🔎 **[Attack Surface Monitor](https://github.com/Pzycokid/attack-surface-monitor)** | Passive recon: finds subdomains via Certificate Transparency, tracks live hosts and alerts on changes | Python · OSINT · GitHub Actions |
+
+---
+
+### 🛠️ Skills & Tools
+
+**Blue team:**
+![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=for-the-badge&logoColor=white)
+![Sigma](https://img.shields.io/badge/Sigma_Rules-2E5C8A?style=for-the-badge&logoColor=white)
+![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=for-the-badge&logoColor=white)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-C8102E?style=for-the-badge&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+
+**Offensive / VAPT:**
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=for-the-badge&logoColor=white)
+![SQLMap](https://img.shields.io/badge/SQLMap-4B0082?style=for-the-badge&logoColor=white)
+
+**Core:**
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Networking](https://img.shields.io/badge/Networking-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+### 📜 Certifications & Training
+
+- **CEH v12 & CCNA trained**: Hackers University APC, an EC-Council Accredited Training Center (Jun 2023 – Feb 2024)
+- **Udemy:** CCNA Networking Essentials · Wireshark Ninja (Sep 2024)
+- **IBM:** Databases and SQL (DB0101EN, Jul 2024)
+- **CTF:** Trisec CTF 2026, NFSU Goa (Jan 2026)
 
 ---
 
@@ -48,7 +64,7 @@ I study how attackers operate so I can detect them. I'm an **M.Sc. Cyber Securit
 
 ### 🤝 Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/LikhithHS15)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/likhith15)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pzycokid)
 
-<p align="center"><i>📍 Karnataka, India · Open to opportunities in Bengaluru</i></p>
+<p align="center"><i>📍 Bengaluru, India · Open to roles across India</i></p>
