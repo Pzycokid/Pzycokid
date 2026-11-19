@@ -13,6 +13,7 @@ I study how attackers operate so I can detect and stop them. I'm an **M.Sc. Cybe
 
 | Project | What it does | Stack |
 |---|---|---|
+| ⚔️ **[Auto Strike](https://github.com/Pzycokid/autostrike)** | Automated red team pipeline for authorised labs: recon → enumeration → exploitation simulation → post-exploitation planning → ATT&CK-mapped HTML/Markdown reports, with strict scope enforcement and nmap XML import | Python · MITRE ATT&CK · pytest · GitHub Actions |
 | 🔴 **[RedSim](https://github.com/Pzycokid/redsim)** | MITRE ATT&CK adversary simulation: 13 scenario profiles (APT29, ransomware, insider threat…) run safe, benign primitives that generate realistic telemetry and risk-scored PDF/JSON reports | Python · MITRE ATT&CK · GitHub Actions |
 | 🔵 **[BlueShield](https://github.com/Pzycokid/blueshield)** | Detection-as-code (Sigma + CI) and a SOAR engine that enriches, scores and correlates Wazuh/Suricata alerts into prioritised cases | Python · Sigma · SOAR · Splunk/Elastic |
 | 🧭 **[ATT&CK Detection Lab](https://github.com/Pzycokid/attack-detection-lab)** | Maps ATT&CK techniques (PowerShell, scheduled tasks, Run keys, RDP) to the telemetry they leave and Sigma rules that catch them | Sysmon · Windows Event Logs · Sigma · Atomic Red Team |
